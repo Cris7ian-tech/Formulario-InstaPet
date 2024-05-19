@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <section class="contenedor">
+                
+        <h1>Div-Span-Form</h1> 
+        
+        <form action="https://formsubmit.co/cristianlucero.ala2@gmail.com" method="post">
+            
+            <section class="entradas">
+                <div class="datos">
+                    <h3>Hola, bienvenido "InstaPet"</h3>
+                    <p>Este es un formulario que debes completar para tener registro y seguimiento del control de su mascota.</p>
+                    
+                <label for="Nombre de la mascota">Nombre de la mascota</label>
+                <input class="datos" type="text" name="Nombre de la mascota" id="Nombre de la mascota" placeholder="Nombre de la mascota" required> <br><br>
+                
+                <label for="Edad de la mascota">Edad de la mascota</label>
+                <input class="datos" type="number" name="edad de la mascota" id="edad de la mascota" placeholder="edad de la mascota" required> <br><br>
+                
+                <labe" for="Correo Electronico">Correo Electronico</label>
+                <input class="datos" type="email" name="Correo Electronico" id="Correo Electronico" placeholder="Correo@mail.com"> <br><br>
+                
+                <label for="Contraseña">Contraseña</label>
+                <input class="datos" type="password" name="Contraseña" id="Contraseña" placeholder="Contraseña"> <br><br>
+                
+            </div>
+            
+            <div class="genero">
+                
+                <label>Selecciona tu Genero de tu mascota:</label> <br><br>
+                
+                <label for="Macho">Macho</label>
+                <input type="radio" name="Genero" id="Macho" value="Macho" required>
+                
+                <label for="Hembra">Hembra</label>
+                <input type="radio" name="Genero" id="Hembra" value="Hembra" required>
+                
+            </div>
+            
+            <div class="color">
+                
+                <label for="color">Coloca el color de tu mascota</label>
+                <input type="color" name="color" id="color" value="color"> <br><br>
+            </div>
+            
+            <div class="especie">
+                
+                <label for="especie">Selecciona la especie de tu mascota:</label>
+                
+                <select name="especie" id="especie"><Lenguajes>
+                    <option value="perro">Perro</option>
+                    <option value="gato">Gato</option>
+                    <option value="coballo">Coballo</option>
+                    <option value="otra">otra</option>
+                </select>
+            </div>
+            
+            <div class="bases">
+                <input type="checkbox" id="bases_y_condiciones" name="bases_y_condiciones" value="acepta" required/>
+                <label for="bases_y_condiciones">Acepto las bases y condiciones</label>
+                
+            </div>
+            
+            <input class="boton-enviar" type="submit" type="button" value="Enviar">
+            
+        </section> <br><br><br>
+        
+    </form>
+    
+</section>
+</body>
+</html>

@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image:url(para\ form.png);
+    background-size: cover;
+}
+
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+    margin-top: auto;
+}
+
+section {
+    border: 1px solid #52ba7a;
+}
+
+h3 {
+    text-align: center;
+}
+
+p {
+    font-size: 14px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.entradas {
+    width: 600px;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 80px;
+    border-radius: 4px;
+    font-family: 'Calibri';
+    color: rgb(17, 17, 17);
+    box-shadow: 7px 13px 37px #000;
+
+}
+
+h3 {
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.datos, .especie, .genero, .color, .bases {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #52ba7a;
+    font-family: 'Calibri';
+    font-size: 18px;
+    background: rgba(255, 255, 255, 0.2);
+    color: rgb(0, 0, 0);
+}
+
+.boton-enviar {
+    width: 100%;
+    background: #52ba7a;
+    border: none;
+    padding: 16px;
+    color: white;
+    margin: auto;
+    font-size: 16px;
+    border-radius: 3px;
+}
+
+label {
+    margin-right: 20px;
+    margin-left: 25px;
+}
+
+
+
+#especie {
+    background: rgba(255, 255, 255, 0.2);
+    color: #08100d;
+    font-size: 16px;
+    border-radius: 3px;
+    font-family: "Calibri";
+
+}
+
+#especie:hover {
+    background: #52ba7a;
+}
+
+h3.text {
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+
+.boton-enviar:hover {
+    background-color: #12583f;
+    cursor: pointer;
+}
